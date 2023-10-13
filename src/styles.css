@@ -1,0 +1,86 @@
+/* Example game show styling for the App */
+.hangman-app {
+  background-color: #3498db;
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 55px;
+  color: #fff;
+}
+
+.button {
+  background-color: #e74c3c;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.button:hover {
+  background-color: #c0392b;
+}
+
+.word-display {
+  font-family: "Press Start 2P", cursive;
+  font-size: 24px;
+  color: #f1c40f;
+}
+
+.result-message {
+  font-family: "Luckiest Guy", cursive;
+  font-size: 28px;
+}
+
+.help-button {
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.hangman-image img {
+  width: 200px;
+  height: 200px;
+  border: 2px solid red;
+}
+
+.keyboard {
+  border: 2px solid red;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  margin-top: 20px;
+}
+
+.keyboard button {
+  font-size: 30px;
+}
+
+.result p {
+  font-size: 40px;
+  font-weight: bold;
+  color: red;
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
