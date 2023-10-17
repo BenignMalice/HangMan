@@ -13,7 +13,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      word: "loading",
+      word: "",
       guessedLetters: new Set(),
       attempts: 0,
       maxAttempts: 6,
